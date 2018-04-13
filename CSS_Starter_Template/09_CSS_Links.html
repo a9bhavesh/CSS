@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS LINKS</title>
+    <style type="text/css">
+    	#bordered{
+    		text-decoration: none;/* removes underline */
+    		color: black;
+    		margin-left: 100px;
+    		border: 2px solid red;
+    		padding: 14px 18px;
+    		background-color: lightcoral;
+
+    	}
+    	.button{
+    		text-decoration: none;
+    		color: white;
+    		background-color: seagreen;
+    		padding: 14px 50px;
+    		font-size: 25px;
+    	}
+    	.button:link{
+    		background-color: seagreen;
+
+    	}
+    	.button:hover{
+    		background-color: seagreen;
+
+    	}
+    	.button:active{
+    		background-color: blue;
+    	}
+    	.button:visited{
+    		background-color: teal;
+    	}
+    </style>
+</head>
+<body>
+
+    <!-- NORMAL LINK -->
+    <h2>Normal Link</h2>
+    <a href="#">Home</a>
+
+    <br>
+
+    <!-- NO UNDERLINE LINK -->
+    <h2>NO UNDERLINE LINK</h2>
+
+    <a href="#" style="text-decoration: none;">Google</a>
+
+    
+     <br>
+    <!-- BORDERED LINK -->
+    <h2>BORDERED LINK</h2>
+    <a href="#" id="bordered">Bordered</a>
+
+
+    <!-- BUTTON LIKE LINK -->
+    <h3>BUTTON LIKE LINK</h3>
+    <a href="https://www.google.co.in" class="button">Google</a>
+
+</body>
+</html>

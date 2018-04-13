@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Buttons</title>
+    <style type="text/css">
+    	.button{
+    		background-color: forestgreen;
+    		color: white;
+    		text-decoration: none;
+    		border:none;
+    		font-family: 'helvetica neue',sans-serif;
+    		padding: 14px 20px;
+    		text-decoration: uppercase;
+    		font-size: 18px;
+    		max-height: 50px;
+    	}
+    	.button-outline{
+    		background-color: white;
+    		color: forestgreen;
+    		text-decoration: none;
+    		border:2px solid forestgreen;
+    		font-family: 'helvetica neue',sans-serif;
+    		padding: 14px 20px;
+    		text-decoration: uppercase;
+    		font-size: 18px;
+    		min-height: 40px;
+    	}
+    	.button-outline:hover{
+    		background-color: forestgreen;
+    		color: white;
+    		cursor: pointer;
+    	}
+    	.primary{
+    		background-color: blue;
+    	}
+    	.primary:hover{
+    		background-color: darkblue;
+    		box-shadow: 2px 2px 2px gray;
+    	}
+    	.secondary{
+    		background-color: gray;
+    	}
+    	.secondary:hover{
+    		background-color: darkblue;
+    		box-shadow: 2px 2px 2px gray;
+    	}
+    	.warning{
+    		background-color: orange;
+    	}
+    	.warning:hover{
+    		background-color: darkblue;
+    		box-shadow: 2px 2px 2px gray;
+    	}
+    	.danger{
+    		background-color: red;
+    	}
+    	.danger:hover{
+    		background-color: darkred;
+    		box-shadow: 2px 2px 2px gray;
+    	}
+    	.button:hover{
+    		background-color: darkblue;
+    		box-shadow: 2px 2px 2px gray;
+    	}
+    	
+    </style>
+    
+</head>
+<body>
+
+<button>Default Button</button>
+<a href="#" class="button">Link</a>
+<button class="button">Button</button>
+<input class="button" type="button" value="Input">
+
+
+<hr>
+<button>Default Button</button>
+<a href="#" class="button-outline">Link</a>
+<button class="button-outline">Button</button>
+<input class="button-outline" type="button" value="Input">
+
+<hr>
+
+<button>Default Button</button>
+<button class="button primary">Primary</button>
+<button class="button secondary">Secondary</button>
+<button class="button success">Success</button>
+<button class="button warning">Warning</button>
+<button class="button danger">Danger</button>
+
+
+
+</body>
+</html>
